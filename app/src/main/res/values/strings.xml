@@ -1,0 +1,69 @@
+<resources>
+
+    // login,signup,getstarted,sections strings
+
+    <string name="app_name">MAD_LABTEST_02</string>
+    <string name="Getstarted_button">Get Started</string>
+    <string name="login_login_button">Login</string>
+    <string name="signup_signup_button">Signup</string>
+    <string name="Login_button">Login</string>
+    <string name="signup_button">Signup</string>
+    <string name="reading_button">Reading</string>
+    <string name="writing_button">Writing</string>
+    <string name="listening_button">Listening</string>
+    <string name="speaking_button">Speaking</string>
+    <string name="editTextText">Username</string>
+    <string name="editTextText2">Password</string>
+    <string name="editTextText3">Username</string>
+    <string name="editTextText4">Email</string>
+    <string name="editTextText5">Password</string>
+
+    // reading strings
+    <string name="friendsbtn">FRIENDS</string>
+    <string name="homebtn">HOME</string>
+    <string name="seasonsbtn">SEASONS</string>
+    <string name="foodbtn">FOOD</string>
+    <string name="readintest1btn">SPOTTEST1</string>
+    <string name="educationbtn">EDUCATION</string>
+    <string name="leisurebtn">LEISURE</string>
+    <string name="occupationbtn">OCCUPATION</string>
+    <string name="medicinebtn">MEDICINE</string>
+    <string name="readingtest2btn">SPOT TEST 2</string>
+
+    // settings strings
+
+    <string name="savebutton">SAVE</string>
+    <string name="accountbutton">ACCOUNT</string>
+    <string name="textViewname">Name</string>
+    <string name="editTextTextname">Kylie James</string>
+    <string name="textViewusername">Username</string>
+    <string name="textView4">SAVE</string>
+
+    // badges strings
+
+    <string name="buttonbadgesbadges">BADGES</string>
+
+    // friends strings
+
+    <string name="textViewreading1">READING PRACTISE 1</string>
+    <string name="textView2">Make sure to finish it on time !</string>
+    <string name="textView3">CONTENT</string>
+    <string name="button">Open Passage</string>
+    <string name="textViewemail">Email</string>
+    <string name="textViewpassword">Password</string>
+    <string name="editTextTextusername">Kylie</string>
+    <string name="editTextTextemail">Kylie@gmail.com</string>
+    <string name="editTextTextpw">2002LO</string>
+
+    // profile strings
+
+    <string name="buttonbadges">BADGES</string>
+    <string name="buttonprofile">PROFILE</string>
+    <string name="buttonprogress">PROGRESS</string>
+    <string name="textViewusernameprofile">Username</string>
+    <string name="textViewemailprofile">Email</string>
+    <string name="editTextTextpwprofile">Password</string>
+    <string name="textViewpwprofile">Password</string>
+    <string name="editTextTextusernameprofile">Username</string>
+
+</resources>

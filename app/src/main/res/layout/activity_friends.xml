@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/materialToolbar2"
+            android:layout_width="584dp"
+            android:layout_height="91dp"
+            android:background="@color/Darkblue"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.951"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="26dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.97"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/materialToolbar2"
+            app:srcCompat="@drawable/baseline_close_24" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="94dp"
+            android:layout_height="113dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.038"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/materialToolbar2"
+            app:srcCompat="@drawable/reading" />
+
+        <TextView
+            android:id="@+id/textViewreading1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:backgroundTint="@color/LightPurple"
+            android:text="@string/textViewreading1"
+            android:textColor="@color/LightPurple"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/materialToolbar3"
+            android:layout_width="372dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="36dp"
+            android:background="@color/Greyishwhite"
+            android:backgroundTint="#EAEAF6"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialToolbar2" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="96dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.039"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/materialToolbar3"
+            app:srcCompat="@drawable/orangeowl" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/textView2"
+            android:textColor="@color/Darkblue"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/materialToolbar3" />
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/materialToolbar4"
+            android:layout_width="432dp"
+            android:layout_height="542dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/Lightblue"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialToolbar3" />
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/materialToolbar5"
+            android:layout_width="343dp"
+            android:layout_height="521dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/white"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/materialToolbar4" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="248dp"
+            android:text="@string/textView3"
+            android:textColor="@color/Darkblue"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.443"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/materialToolbar4" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="463dp"
+            android:layout_height="57dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.294"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialToolbar5">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="406dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageViewlibraryreading"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.394"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/baseline_library_books_24" />
+
+                <ImageView
+                    android:id="@+id/imageViewsettingreading"
+                    android:layout_width="50dp"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.923"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/baseline_settings_24" />
+
+                <ImageView
+                    android:id="@+id/imageViewaccountreading"
+                    android:layout_width="45dp"
+                    android:layout_height="43dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.661"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.761"
+                    app:srcCompat="@drawable/baseline_accounttt_circle_24" />
+
+                <ImageView
+                    android:id="@+id/imageViewhomereading"
+                    android:layout_width="55dp"
+                    android:layout_height="41dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.145"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.687"
+                    app:srcCompat="@drawable/baseline_homee_24" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/Orange"
+            android:text="@string/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.858"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/materialToolbar4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

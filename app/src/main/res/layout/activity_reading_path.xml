@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Purplemain">
+
+        <Button
+            android:id="@+id/friendsbtn"
+            android:layout_width="243dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/LightPurple"
+            android:drawableBottom="@drawable/box"
+            android:text="@string/friendsbtn"
+            android:textColor="@color/Midblack"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.055"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/homebtn"
+            android:layout_width="243dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="52dp"
+            android:backgroundTint="@color/LightPurple"
+            android:drawableBottom="@drawable/box"
+            android:text="@string/homebtn"
+            android:textColor="@color/Midblack"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.841"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/friendsimg" />
+
+        <ImageView
+            android:id="@+id/friendsimg"
+            android:layout_width="172dp"
+            android:layout_height="211dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.788"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/friendsbtn"
+            app:srcCompat="@drawable/friends" />
+
+        <Button
+            android:id="@+id/seasonsbtn"
+            android:layout_width="243dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="108dp"
+            android:backgroundTint="@color/LightPurple"
+            android:drawableBottom="@drawable/box"
+            android:text="@string/seasonsbtn"
+            android:textColor="@color/Midblack"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homebtn" />
+
+        <Button
+            android:id="@+id/foodbtn"
+            android:layout_width="243dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="220dp"
+            android:backgroundTint="@color/LightPurple"
+            android:drawableBottom="@drawable/box"
+            android:text="@string/foodbtn"
+            android:textColor="@color/Midblack"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.916"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seasonsbtn" />
+
+        <Button
+            android:id="@+id/readintest1btn"
+            android:layout_width="243dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="104dp"
+            android:backgroundTint="@color/Luminous_yellow"
+            android:drawableBottom="@drawable/box"
+            android:text="@string/readintest1btn"
+            android:textColor="@color/Midblack"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/foodbtn" />
+
+        <ImageView
+            android:id="@+id/homeimg"
+            android:layout_width="187dp"
+            android:layout_height="191dp"
+            android:layout_marginTop="108dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.049"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/friendsbtn"
+            app:srcCompat="@drawable/homee" />
+
+        <ImageView
+            android:id="@+id/seasonsimg"
+            android:layout_width="247dp"
+            android:layout_height="217dp"
+            android:layout_marginTop="64dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.769"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homebtn"
+            app:srcCompat="@drawable/gift" />
+
+        <ImageView
+            android:id="@+id/foodimg"
+            android:layout_width="272dp"
+            android:layout_height="229dp"
+            android:layout_marginTop="116dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.026"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seasonsbtn"
+            app:srcCompat="@drawable/foodd" />
+
+        <ImageView
+            android:id="@+id/orangeowlimg"
+            android:layout_width="183dp"
+            android:layout_height="270dp"
+            android:layout_marginTop="120dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/foodbtn"
+            app:srcCompat="@drawable/orangeowl" />
+
+        <Button
+            android:id="@+id/educationbtn"
+            android:layout_width="243dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="140dp"
+            android:backgroundTint="@color/LightPurple"
+            android:drawableBottom="@drawable/box"
+            android:text="@string/educationbtn"
+            android:textColor="@color/Midblack"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.87"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/readintest1btn" />
+
+        <Button
+            android:id="@+id/leisurebtn"
+            android:layout_width="243dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="152dp"
+            android:backgroundTint="@color/LightPurple"
+            android:drawableBottom="@drawable/box"
+            android:text="@string/leisurebtn"
+            android:textColor="@color/Midblack"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.025"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/educationbtn" />
+
+        <Button
+            android:id="@+id/occupationbtn"
+            android:layout_width="243dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="140dp"
+            android:backgroundTint="@color/LightPurple"
+            android:drawableBottom="@drawable/box"
+            android:text="@string/occupationbtn"
+            android:textColor="@color/Midblack"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leisurebtn" />
+
+        <Button
+            android:id="@+id/medicinebtn"
+            android:layout_width="243dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="160dp"
+            android:backgroundTint="@color/LightPurple"
+            android:drawableBottom="@drawable/box"
+            android:text="@string/medicinebtn"
+            android:textColor="@color/Midblack"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/occupationbtn" />
+
+        <Button
+            android:id="@+id/readingtest2btn"
+            android:layout_width="243dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="196dp"
+            android:backgroundTint="@color/Luminous_yellow"
+            android:drawableBottom="@drawable/box"
+            android:text="@string/readingtest2btn"
+            android:textColor="@color/Midblack"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/medicinebtn" />
+
+        <ImageView
+            android:id="@+id/educationimg"
+            android:layout_width="245dp"
+            android:layout_height="256dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.02"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/readintest1btn"
+            app:srcCompat="@drawable/education" />
+
+        <ImageView
+            android:id="@+id/leisureimg"
+            android:layout_width="199dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="112dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.894"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/educationbtn"
+            app:srcCompat="@drawable/lesidure" />
+
+        <ImageView
+            android:id="@+id/occupationimg"
+            android:layout_width="161dp"
+            android:layout_height="272dp"
+            android:layout_marginTop="68dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.163"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leisurebtn"
+            app:srcCompat="@drawable/occupations" />
+
+        <ImageView
+            android:id="@+id/greenowlimg"
+            android:layout_width="168dp"
+            android:layout_height="263dp"
+            android:layout_marginTop="140dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.048"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/medicinebtn"
+            app:srcCompat="@drawable/greenowl" />
+
+        <ImageView
+            android:id="@+id/medicineimg"
+            android:layout_width="230dp"
+            android:layout_height="195dp"
+            android:layout_marginTop="192dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.894"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/occupationbtn"
+            app:srcCompat="@drawable/medicine" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="Midblack">#373434</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Red">#F21212</color>
+    <color name="Orange">#F5B000</color>
+    <color name="Luminous_yellow">#B6F500</color>
+    <color name="Greyishwhite">#FFFDFD</color>
+    <color name="Purplemain">#8C52FF</color>
+    <color name="Lightblue">#8484F2</color>
+    <color name="Darkblue">#5F5FAB</color>
+    <color name="LightPurple">#CCCCFF</color>
+</resources>
